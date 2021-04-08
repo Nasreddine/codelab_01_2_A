@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarSize="10sp"
+    android:scrollbarThumbVertical="@drawable/scrollbar_vertical_poignee"
+    android:scrollbarTrackVertical="@drawable/scrollbar_vertical_fond"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+
+    >
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="0">
+        <TableRow>
+            <View
+                android:layout_height="90dip"
+                android:background="#184e77"/>
+        </TableRow>
+        <TableRow>
+            <View
+                android:layout_height="90dip"
+                android:background="#1e6091" />
+        </TableRow>
+        <TableRow>
+            <View
+                android:layout_height="90dip"
+                android:background="#1a759f" />
+
+        </TableRow>
+        <TableRow>
+            <View
+                android:layout_height="90dip"
+                android:background="#168aad" />
+
+        </TableRow>
+        <TableRow>
+            <View
+                android:layout_height="90dip"
+                android:background="#34a0a4" />
+        </TableRow>
+
+        <TableRow>
+            <View
+                android:layout_height="90dip"
+                android:background="#52b69a" />
+
+        </TableRow>
+        <TableRow>
+            <View
+                android:layout_height="90dip"
+                android:background="#76c893" />
+
+        </TableRow>
+        <TableRow>
+            <View
+                android:layout_height="90dip"
+                android:background="#99d98c" />
+
+        </TableRow>
+        <TableRow>
+            <View
+                android:layout_height="90dip"
+                android:background="#d9ed92" />
+
+        </TableRow>
+     </TableLayout>
+</ScrollView>
